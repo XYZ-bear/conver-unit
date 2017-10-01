@@ -1,0 +1,74 @@
+// 导航
+app-banner {
+    ion-grid {
+        padding: 0 !important;
+        ion-row {
+            border-bottom: 0.26vw solid #E9E9E9;
+            ion-col {
+                &:first-child {
+                    border-right: 0.26vw solid #E9E9E9;
+                }
+                .left-img {
+                    float: left;
+                    width: 17.6vw;
+                    margin-right: 0;
+                    margin-top: 2.13vw;
+                    img {
+                        display: block;
+                        height: auto;
+                        margin: 0 auto;
+                        width: 7.46vw;
+                    }
+                }
+                .title {
+                    float: left;
+                    padding: 0;
+                    text-align: left;
+                    h2 {
+                        color: #333;
+                        font-size: 4vw;
+                        margin-bottom: 1.33vw;
+                        margin-top: 0;
+                    }
+
+                    p {
+                        color: #999;
+                        font-size: 2.13vw;
+                    }
+                }
+            }
+            &:last-child {
+                color: #ff9c00;
+                font-size: 4.53vw;
+                //margin-left: 4.8vw;
+                //margin-right: 3.46vw;
+
+                img {
+                    height: 4vw;
+                    margin-left: 4.8vw;
+                    margin-right: 1.33vw;
+                }
+                .line {
+                    color: #E9E9E9;
+                    font-size: 4.53vw;
+                    margin: 0 3.46vw;
+                }
+
+                .message {
+                    color: #333;
+                    font-size: 3.2vw;
+                }
+
+                .right-arrow {
+
+                    img {
+                        height: auto;
+                        width: 4vw;
+                        margin-left: 9.33vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
